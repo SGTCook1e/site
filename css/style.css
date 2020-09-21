@@ -1,0 +1,188 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background: url(../img/R6header.png)no-repeat center top/cover;
+    max-width: 100%;
+    padding-bottom: 150px;
+}
+
+footer{
+    background-color: black;
+    height: 20px;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.container{
+    width: 1198px;
+    margin: 0 auto;
+    /*border: 2px solid red;*/
+}
+
+.logo{
+    float: left;
+    margin-top: 120px;
+}
+
+p{
+    color:  white;
+    /*float: left;*/
+    font-size: 30px;
+    padding-top: 265px;
+    
+}
+
+#first{
+    background: url(../img/BF.png)no-repeat center top/cover;
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 495px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    padding: auto;
+    font-weight: bold;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 35px;
+}
+
+.menu a{
+    font-size: 25px;
+    color: rgb(220, 171, 9);
+    text-decoration: none;
+}
+
+.footext{
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+#second{
+    height: 530px;
+}
+
+.About{
+    padding-top: 72px;
+}
+
+.textAbout{
+    float: right;
+    padding-top: 55px;
+    font-size: 18px;
+}
+
+.about_items{
+    padding-top: 95px;
+    text-align: center;
+    float: left;
+}
+
+.about_items:last-child{
+    float: right;
+}
+
+.about_items:nth-child(2)
+{
+    margin-left: 250px;
+}
+
+.podpis{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#third{
+    height: 588px;
+}
+
+.textCrew{
+    float: right;
+    padding-top: 95px;
+    font-size: 18px;
+}
+
+.team{
+    padding-top: 100px;
+
+}
+
+.crew_items{
+    padding-top: 35px;
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.crew_items:last-child{
+    float: right;
+}
+
+.crew_items:nth-child(2){
+    margin-left: 150px;
+}
+
+.crew_items:nth-child(3){
+    margin-left: 170px;
+}
+
+#four{
+    height: 710px;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.Projects{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#five{
+    height: 686px;
+}
+
+script{
+    padding: 0;
+    margin: 0;
+}
+
+.contactsInf{
+    float: right;
+    margin-top: -250px;
+    padding-right: 350px;
+    font-size: 25px;
+}
+
+.map{
+    margin-top: 50px;
+}
